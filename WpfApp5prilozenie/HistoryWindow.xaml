@@ -1,0 +1,11 @@
+﻿<Window x:Class="WpfApp5prilozenie.HistoryWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="HistoryWindow" Height="300" Width="400">
+    <Grid>
+        <ListBox x:Name="HistoryListBox" SelectionMode="Single" SelectionChanged="HistoryListBox_SelectFromHistory"/>
+        
+        
+        
+    </Grid>
+</Window>
